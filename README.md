@@ -10,7 +10,7 @@ FreeSWITCH is a scalable open source cross-platform telephony
 platform designed to route and interconnect popular communication
 protocols using audio, video, text or any other form of media.
 
-> [freeswitch.org](https://freeswitch.org/)
+> [wikipedia.org/wiki/FreeSWITCH](https://en.wikipedia.org/wiki/FreeSWITCH)
 
 ![logo](https://freeswitch.org/wp-content/themes/ken1/images/FS-new-web-logo.png)
 
