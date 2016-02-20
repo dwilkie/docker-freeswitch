@@ -1,6 +1,6 @@
 # Supported tags and respective `Dockerfile` links
 
--	[`1.4.26`, `1.4`, `latest` (*1.4/Dockerfile*)](https://github.com/n42org/docker-library/blob/master/freeswitch/1.4/Dockerfile)
+-	[`1.4.26`, `1.4`, `latest` (*1.4/Dockerfile*)](https://github.com/n42org/docker-freeswitch/blob/master/1.4/Dockerfile)
 
 [![](https://badge.imagelayers.io/n42org/freeswitch:latest.svg)](https://imagelayers.io/?images=n42org/freeswitch:1.4.26)
 
