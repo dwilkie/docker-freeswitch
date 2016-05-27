@@ -1,8 +1,8 @@
 # Supported tags and respective `Dockerfile` links
 
--	[`1.4.26`, `1.4`, `latest` (*1.4/Dockerfile*)](https://github.com/n42org/docker-freeswitch/blob/master/1.4/Dockerfile)
+-	[`1.4.26`, `1.4`, `latest` (*1.4/Dockerfile*)](https://github.com/n42org/docker-freeswitch/blob/latest/1.4/Dockerfile)
 
-[![](https://badge.imagelayers.io/n42org/freeswitch:latest.svg)](https://imagelayers.io/?images=n42org/freeswitch:1.4.26)
+[![](https://badge.imagelayers.io/n42org/freeswitch:latest.svg)](https://imagelayers.io/?images=n42org/freeswitch:latest)
 
 # What is FreeSWITCH?
 
@@ -19,7 +19,7 @@ protocols using audio, video, text or any other form of media.
 ### Create a `Dockerfile` in your project
 
 ```dockerfile
-FROM n42org/freeswitch:latest
+FROM n42org/freeswitch
 ```
 
 Then, run the commands to build and run the Docker image:
@@ -34,7 +34,7 @@ $ docker run -it --rm --name my-fs-app -v "$PWD/freeswitch":/etc/freeswitch my-f
 If you don't want to include a `Dockerfile` in your project, it is sufficient to do the following:
 
 ```console
-$ docker run -it --rm --name my-fs-app -v "$PWD/freeswitch":/etc/freeswitch n42org/freeswitch:latest
+$ docker run -it --rm --name my-fs-app -v "$PWD/freeswitch":/etc/freeswitch n42org/freeswitch
 ```
 
 # License
