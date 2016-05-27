@@ -8,6 +8,7 @@ set -e
 if [ "$1" = 'freeswitch' ]; then
 
     if [ ! -f "/etc/freeswitch/freeswitch.xml" ]; then
+        mkdir -p /etc/freeswitch
         cp -varf /usr/share/freeswitch/conf/vanilla/* /etc/freeswitch/
     fi
 
