@@ -3,8 +3,6 @@ sudo: required
 services:
   - docker
   
-# before_install:
-  
 script:
   - docker build -t n42org/freeswitch 1.4
   # - docker run --rm n42org/freeswitch freeswitch --version
