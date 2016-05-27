@@ -1,7 +1,9 @@
 # Supported tags and respective `Dockerfile` links
 
--	[`1.4.26`, `1.4`, `latest` (*1.4/Dockerfile*)](https://github.com/n42org/docker-freeswitch/blob/latest/1.4/Dockerfile)
+-	[`latest`, `1.4`, `1.4.26` (*1.4/Dockerfile*)](https://github.com/n42org/docker-freeswitch/blob/latest/1.4/Dockerfile)
 
+[![Build Status](https://travis-ci.org/n42org/docker-freeswitch.svg?branch=master)](https://travis-ci.org/n42org/docker-freeswitch)
+[![Docker Pulls](https://img.shields.io/docker/pulls/n42org/freeswitch.svg)](https://hub.docker.com/r/n42org/freeswitch/)
 [![](https://badge.imagelayers.io/n42org/freeswitch:latest.svg)](https://imagelayers.io/?images=n42org/freeswitch:latest)
 
 # What is FreeSWITCH?
