@@ -8,3 +8,6 @@ services:
 script:
   - docker build -t n42org/freeswitch 1.4
   # - docker run --rm n42org/freeswitch freeswitch --version
+
+notifications:
+    email: false
