@@ -33,5 +33,4 @@ RUN apt-get update && apt-get install -y curl \
     && echo "deb http://files.freeswitch.org/repo/deb/freeswitch-$FS_MAJOR/ jessie main" > /etc/apt/sources.list.d/freeswitch.list \
     && apt-get purge -y --auto-remove curl
 
-RUN apt-get update && apt-get install -y freeswitch \
-    && apt-get clean && rm -rf /var/lib/apt/lists/*
+RUN apt-get update && apt-get install -y freeswitch
