@@ -1,13 +1,11 @@
-sudo: required
-
 services:
   - docker
-  
+
 before_install:
-  - docker build -t n42org/freeswitch 1.4
+  - docker build -t somleng/freeswitch 1.8
 
 script:
-  - docker run --rm n42org/freeswitch /usr/bin/freeswitch -version
+  - docker run --rm somleng/freeswitch /usr/bin/freeswitch -version
 
 notifications:
     email: false
