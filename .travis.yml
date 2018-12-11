@@ -1,11 +1,10 @@
 services:
-  - docker
-
+- docker
+addons:
+  apt:
+    packages:
+      - docker-ce
 before_install:
-  - docker build -t somleng/freeswitch 1.8
-
+- docker build -t somleng/docker-freeswitch 1.8
 script:
-  - docker run --rm somleng/freeswitch /usr/bin/freeswitch -version
-
-notifications:
-    email: false
+- docker run --rm somleng/docker-freeswitch /usr/bin/freeswitch -version
