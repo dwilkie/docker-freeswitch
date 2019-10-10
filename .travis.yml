@@ -5,6 +5,6 @@ addons:
     packages:
       - docker-ce
 before_install:
-- docker build -t somleng/docker-freeswitch 1.8
+- docker build -t somleng/docker-freeswitch 1.10
 script:
 - docker run --rm somleng/docker-freeswitch /usr/bin/freeswitch -version
