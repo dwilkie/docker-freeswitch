@@ -1,6 +1,6 @@
 # Supported tags and respective `Dockerfile` links
 
--	[`latest`, `1.4`, `1.4.26` (*1.4/Dockerfile*)](https://github.com/n42org/docker-freeswitch/blob/latest/1.4/Dockerfile)
+-	[`latest`, `1.10` (*1.10/Dockerfile*)](https://github.com/n42org/docker-freeswitch/blob/latest/1.4/Dockerfile)
 
 [![Build Status](https://travis-ci.org/n42org/docker-freeswitch.svg?branch=master)](https://travis-ci.org/n42org/docker-freeswitch) [![Docker Pulls](https://img.shields.io/docker/pulls/n42org/freeswitch.svg)](https://hub.docker.com/r/n42org/freeswitch/) [![](https://badge.imagelayers.io/n42org/freeswitch:latest.svg)](https://imagelayers.io/?images=n42org/freeswitch:latest)
 
@@ -12,21 +12,21 @@ protocols using audio, video, text or any other form of media.
 
 > [wikipedia.org/wiki/FreeSWITCH](https://en.wikipedia.org/wiki/FreeSWITCH)
 
-![logo](https://freeswitch.org/wp-content/themes/ken1/images/FS-new-web-logo.png)
+![logo](https://en.wikipedia.org/wiki/FreeSWITCH#/media/File:FreeSWITCH_official_logo.jpg)
 
 # How to use this image.
 
 ### Create a `Dockerfile` in your project
 
 ```dockerfile
-FROM n42org/freeswitch
+FROM somleng/docker-freeswitch
 ```
 
 Then, run the commands to build and run the Docker image:
 
 ```console
 $ docker build -t my-fs .
-$ docker run -it --rm --name my-fs-app -v "$PWD/freeswitch":/etc/freeswitch my-fs
+$ docker run --rm somleng/docker-freeswitch /usr/bin/freeswitch -version
 ```
 
 ### Without a `Dockerfile`
@@ -34,7 +34,7 @@ $ docker run -it --rm --name my-fs-app -v "$PWD/freeswitch":/etc/freeswitch my-f
 If you don't want to include a `Dockerfile` in your project, it is sufficient to do the following:
 
 ```console
-$ docker run -it --rm --name my-fs-app -v "$PWD/freeswitch":/etc/freeswitch n42org/freeswitch
+$ docker run --rm somleng/docker-freeswitch /usr/bin/freeswitch -version somleng/docker-freeswitch
 ```
 
 # License
