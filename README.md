@@ -12,7 +12,7 @@ protocols using audio, video, text or any other form of media.
 
 > [wikipedia.org/wiki/FreeSWITCH](https://en.wikipedia.org/wiki/FreeSWITCH)
 
-![logo](https://en.wikipedia.org/wiki/FreeSWITCH#/media/File:FreeSWITCH_official_logo.jpg)
+![logo](https://upload.wikimedia.org/wikipedia/en/6/61/FreeSWITCH_official_logo.jpg)
 
 # How to use this image.
 
